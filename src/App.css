@@ -1,0 +1,116 @@
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+.categories{
+  padding-right: 1pt;
+
+}
+.Logo{
+  margin-left: 30px;
+  font-size: xx-large;
+}
+.header-items{
+  margin-left: 10px;
+}
+.header-div{
+  padding-top: 20pt;
+  background-color: #1E1E1E;
+  height: 60px;
+}
+
+.navbarbuttons{
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.LogoText{
+  margin-left: 5%;
+}
+.categories{
+  margin-right: 60%;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  margin-bottom: 10pt;
+}
+.stslide{
+  background: rgb(255, 255, 255);
+  color:black;
+
+  border-radius: 20px;
+  max-width: 200pt;
+}
+.ndslide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rdslide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orderbutton{
+  background: black;
+  border: none;
+  border-radius: 20px;
+  width: 100pt;
+  height: 30pt;
+  font-family:monospace;
+  font-size: 14pt;
+  color: white;
+  margin-bottom: 10pt;
+}
+.cart-button {
+  padding: 15px 25px !important; /* Увеличение padding */
+  background-color: black !important;
+  color: white !important;
+  border-radius: 20px !important;
+  border: none !important;
+  margin-right: 10px !important;
+  font-size: 16pt !important; /* Увеличение размера шрифта */
+  transition: background-color 0.3s, color 0.3s !important;
+}
+
+.cart-button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.orderbutton {
+  background: black;
+  border: none;
+  border-radius: 20px;
+  width: 100pt;
+  height: 30pt;
+  font-family: monospace;
+  font-size: 14pt;
+  color: white;
+  margin-bottom: 10pt;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.orderbutton:hover {
+  background-color: white;
+  color: black;
+}
+button:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black !important; /* Добавление черной обводки */
+}
+input[type="text"], input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
